@@ -1,0 +1,42 @@
+.bg-container {
+  padding: 20px;
+  font-family: Roboto;
+}
+
+.image-con {
+  width: 100%;
+}
+
+.main-image {
+  width: 280px;
+  border-radius: 16px;
+}
+
+.thumbnail-con {
+  list-style: none;
+  padding-left: 0px;
+  margin-left: 0px;
+  display: flex;
+}
+
+.main-head {
+  color: #1e293b;
+  font-size: 21px;
+}
+
+.desc {
+  color: #64748b;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .main-image {
+    width: 100%;
+  }
+  .bg-container {
+    padding: 50px;
+  }
+  .main-head {
+    font-size: 30px;
+  }
+}
